@@ -1,0 +1,1293 @@
+fileFormatVersion: 2
+guid: eed77566d62f10348a1a1fd93d69a11c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 62cc39a4092faec469c167f48b6d7aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2
+    second: {fileID: 2100000, guid: eab9c28981777824c9ffcd4c01f83168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: 966d3c800ff7650499543283aba5a311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4
+    second: {fileID: 2100000, guid: 54a4620d0fe420b4cb8a9ce61176e584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: katana_katana_blinn7SG1
+    second: {fileID: 2100000, guid: e4bd352190855b5479a5cf8b8190a123, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Knee_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Ankle_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_C_Spine02_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_C_Spine04_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:David_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:David_Neck1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Clavicle_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Clavicle_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Shoulder_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Shoulder_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Elbow_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Elbow_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Ball_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:David_Head
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Thumb01_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Thumb02_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Thumb03_jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Index01_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Index02_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Index03_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Middle01_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Middle02_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Middle03_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Ring01_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Ring02_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Ring03_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Pinky01_jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Pinky02_jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_L_Pinky03_jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Thumb01_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Thumb02_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Thumb03_jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Index01_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Index02_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Index03_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Middle01_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Middle02_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Middle03_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Ring01_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Ring02_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Ring03_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Pinky01_jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Pinky02_jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Pinky03_jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Leg_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Toe_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Knee_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Snake_rigged:David_002:DAVIDRIG_R_Ankle_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: GrayFox(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_SKELETON
+      parentName: GrayFox(Clone)
+      position: {x: -0.03367851, y: 1.0733016, z: 0.055376783}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine_grp
+      parentName: Snake_rigged:David_002:DAVIDRIG_SKELETON
+      position: {x: 0.033032574, y: 0.27580422, z: -0.06558844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine_Transform_grp
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine_grp
+      position: {x: 0.0006459358, y: -0.31846848, z: 0.007239381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine_Transform_grp
+      position: {x: 1.4210854e-16, y: -3.5527136e-17, z: 0}
+      rotation: {x: -0.50456196, y: 0.52552795, z: -0.47264, w: 0.49583164}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Snake_rigged:joint3
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      position: {x: -0.062330198, y: -0.061838876, z: 0.16868854}
+      rotation: {x: -0.50456196, y: 0.525528, z: -0.47263995, w: -0.49583167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:joint4
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      position: {x: -0.065250635, y: -0.12385022, z: 0.116928}
+      rotation: {x: -0.50456196, y: 0.525528, z: -0.47263995, w: -0.49583167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:joint2
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      position: {x: -0.062622145, y: -0.04100611, z: -0.16873634}
+      rotation: {x: -0.50456196, y: 0.525528, z: -0.47263995, w: -0.49583167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      position: {x: -0.072308056, y: -1.5543122e-17, z: 3.5527136e-17}
+      rotation: {x: -0.0003461987, y: -0.0011981727, z: 0.027286263, w: -0.99962693}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine01_jnt
+      position: {x: -0.06295054, y: -1.5265567e-17, z: -1.2434498e-16}
+      rotation: {x: -0.002543395, y: 0.0012340393, z: -0.026759094, w: 0.99963796}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine02_jnt
+      position: {x: -0.067042544, y: -6.661338e-18, z: -3.5527136e-17}
+      rotation: {x: -0.0018664049, y: 0.0014815049, z: -0.029315876, w: 0.99956745}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine03_jnt
+      position: {x: -0.063656665, y: -2.7755575e-19, z: 0}
+      rotation: {x: -0.0027066355, y: 0.001772941, z: -0.032163028, w: 0.9994774}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999999}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine05_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine04_jnt
+      position: {x: -0.06444602, y: 1.1379786e-17, z: 0}
+      rotation: {x: 0.00025368456, y: 0.00044067454, z: -0.00765173, w: 0.9999707}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: Snake_rigged:David_002:joint10
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine05_jnt
+      position: {x: 0.019484734, y: -0.10095327, z: -0.15624794}
+      rotation: {x: 0.5655504, y: -0.4656787, z: 0.52971345, w: 0.42743397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint8
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine05_jnt
+      position: {x: 0.023331737, y: -0.12272778, z: 0.14403854}
+      rotation: {x: 0.5655504, y: -0.4656787, z: 0.52971345, w: 0.42743397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine05_jnt
+      position: {x: -0.073097035, y: 4.440892e-18, z: 7.105427e-17}
+      rotation: {x: -0.005459627, y: -0.003425599, z: 0.054529816, w: 0.99849135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint1
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.02449641, y: -0.20047109, z: 0.06499398}
+      rotation: {x: 0.543452, y: -0.49724326, z: 0.5011267, w: 0.45418173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint2
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.02671354, y: -0.17438857, z: 0.14490525}
+      rotation: {x: 0.543452, y: -0.49724326, z: 0.5011267, w: 0.45418173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint3
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.115794465, y: -0.18157117, z: 0.080007315}
+      rotation: {x: 0.543452, y: -0.49724326, z: 0.5011267, w: 0.45418173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint4
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.11641864, y: -0.16515987, z: -0.111797795}
+      rotation: {x: 0.543452, y: -0.49724326, z: 0.5011267, w: 0.45418173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint5
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.025025308, y: -0.18656467, z: -0.09753562}
+      rotation: {x: 0.543452, y: -0.49724326, z: 0.5011267, w: 0.45418173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint6
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.02774013, y: -0.1473963, z: -0.1705637}
+      rotation: {x: 0.543452, y: -0.49724326, z: 0.5011267, w: 0.45418173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine07_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine06_jnt
+      position: {x: -0.0672098, y: -1.3877788e-17, z: -8.8817837e-17}
+      rotation: {x: 0.02903038, y: 0.014805689, z: -0.151246, w: -0.98795885}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: Snake_rigged:David_002:joint11
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine07_jnt
+      position: {x: -0.107542835, y: 0.08593779, z: -0.059090607}
+      rotation: {x: 0.48230678, y: -0.5812743, z: 0.403918, w: 0.5160917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint12
+      parentName: Snake_rigged:David_002:joint11
+      position: {x: -0.04075522, y: -0.0799633, z: -0.038509913}
+      rotation: {x: 0.113974825, y: 0.23930706, z: -0.42075172, w: 0.8675885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint15
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine07_jnt
+      position: {x: -0.10783009, y: 0.065878026, z: 0.07896927}
+      rotation: {x: 0.48230678, y: -0.5812743, z: 0.403918, w: 0.5160917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint16
+      parentName: Snake_rigged:David_002:joint15
+      position: {x: 0.0457752, y: -0.0799633, z: -0.038509913}
+      rotation: {x: 0.300357, y: 0.08324932, z: -0.2186746, w: 0.92468196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Spine08_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine07_jnt
+      position: {x: -0.12604728, y: -9.2981176e-17, z: 2.1316282e-16}
+      rotation: {x: -0, y: -0, z: -0.0000000058207648, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Neck_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine08_jnt
+      position: {x: 0.009025264, y: 0.0016128668, z: 0.0002058712}
+      rotation: {x: -0.6571876, y: 0.07865942, z: -0.0692573, w: 0.7464051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:David_Neck
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine08_jnt
+      position: {x: 0.009023937, y: 0.0014386786, z: 0.0014823496}
+      rotation: {x: -0.99376595, y: -0.08504366, z: -0.0071744844, w: 0.07173077}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Snake_rigged:David_002:David_Neck1
+      parentName: Snake_rigged:David_002:David_Neck
+      position: {x: -0.05274691, y: -0.0000000023636753, z: -0.0000000029861826}
+      rotation: {x: -0, y: 0.000000024680045, z: 0.1546954, w: 0.98796225}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+    - name: Snake_rigged:David_002:David_Head
+      parentName: Snake_rigged:David_002:David_Neck1
+      position: {x: -0.03439869, y: 0.04600002, z: -2.810713e-19}
+      rotation: {x: 0.73209786, y: -0.67867357, z: -0.04941693, w: -0.031513102}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999996}
+    - name: Snake_rigged:EyeR_joint1
+      parentName: Snake_rigged:David_002:David_Head
+      position: {x: -0.019806813, y: 0.009154755, z: 0.0023028802}
+      rotation: {x: 0.00871726, y: -0.66612554, z: -0.0062577506, w: 0.7457625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:joint1
+      parentName: Snake_rigged:David_002:David_Head
+      position: {x: 0.00021629051, y: 0.0013610112, z: 0.0000036070198}
+      rotation: {x: 0.008725608, y: -0.6651285, z: -0.0062461, w: 0.7466518}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:EyeR_joint
+      parentName: Snake_rigged:David_002:David_Head
+      position: {x: -0.064658776, y: 0.05962689, z: 0.042348456}
+      rotation: {x: 0.008830364, y: -0.6523609, z: -0.0060971137, w: 0.75783247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:EyeL_joint
+      parentName: Snake_rigged:David_002:David_Head
+      position: {x: -0.07232366, y: 0.06047289, z: -0.0232062}
+      rotation: {x: 0.00836796, y: -0.705283, z: -0.0067176763, w: 0.70884466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Clavicle_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine07_jnt
+      position: {x: -0.02435222, y: -0.05930635, z: -0.06127644}
+      rotation: {x: 0.5496028, y: -0.65048885, z: 0.31680766, w: 0.41765293}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ShoulderFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Clavicle_jnt
+      position: {x: -0.14277111, y: 6.9388935e-19, z: -1.7763568e-17}
+      rotation: {x: 0.088637725, y: 0.23262283, z: 0.3788536, w: 0.8913473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ElbowFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ShoulderFK_jnt
+      position: {x: -0.27781925, y: 0, z: 0}
+      rotation: {x: 0, y: 0.19634625, z: -0, w: 0.9805346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ForeArmFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ElbowFK_jnt
+      position: {x: -0.13975465, y: 1.4210854e-16, z: 3.5527136e-17}
+      rotation: {x: -0.19037502, y: 0, z: -0, w: 0.98171145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_WristFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ForeArmFK_jnt
+      position: {x: -0.13975465, y: -1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: -0.18994099, y: 0, z: -0, w: 0.98179555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ShoulderIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Clavicle_jnt
+      position: {x: -0.14277111, y: 6.9388935e-19, z: -1.7763568e-17}
+      rotation: {x: 0.088637725, y: 0.23262283, z: 0.3788536, w: 0.8913473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ElbowIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ShoulderIK_jnt
+      position: {x: -0.27781925, y: 0, z: 0}
+      rotation: {x: 2.614936e-31, y: 0.19634625, z: -2.579824e-30, w: 0.9805346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ForeArmIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ElbowIK_jnt
+      position: {x: -0.13975465, y: 1.4210854e-16, z: 3.5527136e-17}
+      rotation: {x: -0.19037502, y: 0, z: -0, w: 0.98171145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_WristIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ForeArmIK_jnt
+      position: {x: -0.13975465, y: -2.842171e-16, z: 1.4210854e-16}
+      rotation: {x: -0.18994099, y: 0, z: -0, w: 0.98179555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Shoulder_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Clavicle_jnt
+      position: {x: -0.14277111, y: 0, z: -2.6645352e-17}
+      rotation: {x: 0.034122124, y: 0.16743545, z: 0.02815585, w: 0.98489}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Elbow_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Shoulder_jnt
+      position: {x: -0.27781925, y: 0, z: 0}
+      rotation: {x: -0.003863986, y: 0.027312992, z: -0.019296087, w: 0.9994332}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ForeArm_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Elbow_jnt
+      position: {x: -0.13975465, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: -0.19037502, y: 0, z: -0, w: 0.98171145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_ForeArm_jnt
+      position: {x: -0.13975465, y: -4.2632563e-16, z: 0}
+      rotation: {x: -0.18994111, y: 0.00000009996579, z: 0.000000032412583, w: 0.98179555}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Thumb01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      position: {x: -0.013584972, y: -0.06022391, z: 0.015059507}
+      rotation: {x: 0.8822272, y: 0.40083343, z: -0.2440001, w: -0.03836356}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Thumb02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Thumb01_jnt
+      position: {x: -0.019505914, y: -0.0030814009, z: -0.003911353}
+      rotation: {x: 0.0042597037, y: 0.06742822, z: -0.062906176, w: 0.9957299}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000007}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Thumb03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Thumb02_jnt
+      position: {x: -0.02210187, y: -0.007568079, z: -0.008380949}
+      rotation: {x: -0.0122417845, y: -0.068638675, z: 0.026765734, w: 0.9972074}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Thumb04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Thumb03_jnt
+      position: {x: -0.016843287, y: -0.0034078164, z: -0.004882543}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Index01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      position: {x: -0.07159803, y: -0.032157235, z: 0.032813266}
+      rotation: {x: 0.5845127, y: -0.048546445, z: -0.055688377, w: -0.8080142}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Index02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Index01_jnt
+      position: {x: -0.031486228, y: -0.0018433165, z: -0.00453813}
+      rotation: {x: -0.010101191, y: 0.2020684, z: 0.05528213, w: -0.97775775}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Index03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Index02_jnt
+      position: {x: -0.028728215, y: -0.0049748104, z: 0.0053906892}
+      rotation: {x: 0.018994564, y: -0.12449692, z: -0.06304269, w: 0.9900331}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Index04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Index03_jnt
+      position: {x: -0.02217214, y: -0.0051799095, z: 0.00951342}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Middle01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      position: {x: -0.07898212, y: -0.008216257, z: 0.021173306}
+      rotation: {x: 0.62973136, y: -0.07405042, z: -0.08670648, w: -0.768399}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Middle02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Middle01_jnt
+      position: {x: -0.037223164, y: 0.002077714, z: -0.005158601}
+      rotation: {x: 0.008403534, y: -0.06764768, z: -0.07546237, w: 0.9948158}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Middle03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Middle02_jnt
+      position: {x: -0.030203084, y: -0.0020330949, z: -0.0021937548}
+      rotation: {x: 0.008799846, y: -0.18539967, z: -0.07565093, w: 0.9797074}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Middle04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Middle03_jnt
+      position: {x: -0.024714947, y: -0.0042119417, z: 0.00754133}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Ring01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      position: {x: -0.08063059, y: 0.012135405, z: 0.005601855}
+      rotation: {x: 0.7021119, y: -0.110600896, z: -0.112048425, w: -0.69444335}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Ring02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Ring01_jnt
+      position: {x: -0.03601476, y: 0.0063151955, z: -0.005248286}
+      rotation: {x: 0.0064112213, y: -0.13746434, z: -0.10530404, w: 0.98487234}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Ring03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Ring02_jnt
+      position: {x: -0.026697265, y: 0.0012153286, z: 0.0031613456}
+      rotation: {x: 0.002020616, y: -0.06800063, z: -0.04207941, w: 0.99679554}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Ring04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Ring03_jnt
+      position: {x: -0.02785566, y: -0.00029658256, z: 0.0049832035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Pinky01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Wrist_jnt
+      position: {x: -0.06936529, y: 0.024845285, z: -0.01750372}
+      rotation: {x: 0.70641387, y: -0.031254664, z: -0.19940716, w: -0.67840946}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Pinky02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Pinky01_jnt
+      position: {x: -0.024593234, y: 0.004734847, z: 0.003243248}
+      rotation: {x: 0.0046019224, y: -0.051875107, z: -0.11690209, w: 0.99177706}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Pinky03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Pinky02_jnt
+      position: {x: -0.022287652, y: -0.0011862769, z: 0.0035652444}
+      rotation: {x: 0.0062429383, y: -0.051563844, z: -0.074321374, w: 0.99588084}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Pinky04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Pinky03_jnt
+      position: {x: -0.025624892, y: -0.0038062143, z: 0.005346954}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Clavicle_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine07_jnt
+      position: {x: -0.024573674, y: -0.074709535, z: 0.044735998}
+      rotation: {x: 0.5973159, y: 0.48448902, z: 0.49367583, w: -0.4059167}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Shoulder_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Clavicle_jnt
+      position: {x: 0.14277165, y: -0.000002460301, z: -0.00000020874879}
+      rotation: {x: 0.034124557, y: 0.1674359, z: 0.02815483, w: 0.98488986}
+      scale: {x: 1.0000004, y: 1.0000013, z: 1.0000021}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Elbow_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Shoulder_jnt
+      position: {x: 0.27781802, y: -0.0000009284161, z: 0.000000008251424}
+      rotation: {x: -0.0038618487, y: 0.027316397, z: -0.019308375, w: 0.9994329}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999934}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ForeArm_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Elbow_jnt
+      position: {x: 0.13975726, y: 0.0000039128477, z: 0.0000010397001}
+      rotation: {x: -0.19037503, y: -0.00000008940694, z: 0.00000016968978, w: 0.9817115}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ForeArm_jnt
+      position: {x: 0.1397579, y: 0.0000024758724, z: 0.000002460722}
+      rotation: {x: -0.18994103, y: 0.000000026729785, z: -0.00000005535735, w: 0.98179555}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000006}
+    - name: Snake_rigged:transform1
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: -0.18366292, y: -0.96306366, z: 0.95100003}
+      rotation: {x: 0.7399479, y: -0.48118398, z: -0.34779125, w: -0.31619668}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Snake_rigged:M1911:Root
+      parentName: Snake_rigged:transform1
+      position: {x: 0.0034855243, y: -0.005035168, z: 0.0121658845}
+      rotation: {x: -0.52542806, y: -0.000000059604623, z: -0.011489714, w: -0.8507605}
+      scale: {x: 0.3813841, y: 0.38138443, z: 0.381384}
+    - name: Snake_rigged:M1911:Thing 1
+      parentName: Snake_rigged:M1911:Root
+      position: {x: -0.0002123112, y: 0.003420007, z: -0.0007462651}
+      rotation: {x: 0.4405957, y: -0.009727068, z: -0.0061151357, w: 0.8976321}
+      scale: {x: 1.0000001, y: 0.9999993, z: 1.000001}
+    - name: Snake_rigged:M1911:Thing 2
+      parentName: Snake_rigged:M1911:Thing 1
+      position: {x: 0.00040372586, y: 0.00006144667, z: 0.0014393409}
+      rotation: {x: 0.54648983, y: -0.000000093132215, z: 0.00000004796309, w: 0.83746576}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.99999994}
+    - name: Blade_GRP
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: 0.33398837, y: 0.7254016, z: 0.9902902}
+      rotation: {x: 0.81363434, y: -0.41925073, z: 0.049950268, w: -0.399666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Thumb01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: 0.012668733, y: 0.053170767, z: -0.017983286}
+      rotation: {x: -0.899893, y: -0.34840307, z: 0.26013508, w: -0.03372932}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999996}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Thumb02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Thumb01_jnt
+      position: {x: 0.028726121, y: -0.00038381972, z: 0.0031762267}
+      rotation: {x: 0.015382789, y: 0.12620737, z: -0.14115296, w: 0.9817897}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Thumb03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Thumb02_jnt
+      position: {x: 0.01628286, y: 0.0060334723, z: 0.007254989}
+      rotation: {x: 0.00016051989, y: -0.089080215, z: 0.006250586, w: 0.9960048}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Thumb04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Thumb03_jnt
+      position: {x: 0.01906294, y: 0.0062590744, z: 0.005153435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Middle01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: 0.08257054, y: 0.008831746, z: -0.0190153}
+      rotation: {x: -0.63082606, y: 0.0704487, z: 0.07146089, w: 0.7694081}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Middle02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Middle01_jnt
+      position: {x: 0.035050675, y: -0.0020586047, z: 0.0058822613}
+      rotation: {x: 0.009461543, y: -0.097335726, z: -0.08488605, w: 0.9915799}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Middle03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Middle02_jnt
+      position: {x: 0.026981767, y: 0.0020907782, z: 0.0011240741}
+      rotation: {x: -0.008799805, y: 0.1853997, z: 0.075650886, w: -0.9797073}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000004}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Middle04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Middle03_jnt
+      position: {x: 0.026739886, y: 0.004827141, z: -0.00797439}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Ring01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: 0.082068406, y: -0.010849124, z: -0.0028053569}
+      rotation: {x: -0.69428563, y: 0.08324808, z: 0.113391936, w: 0.70581836}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Ring02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Ring01_jnt
+      position: {x: 0.037810538, y: -0.0065879812, z: 0.0039283023}
+      rotation: {x: 0.0072823097, y: -0.1287381, z: -0.097223856, w: 0.9868744}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Ring03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Ring02_jnt
+      position: {x: 0.022861961, y: -0.0007325662, z: -0.0021400275}
+      rotation: {x: 0.003657386, y: -0.06330184, z: -0.030448075, w: 0.9975231}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Ring04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Ring03_jnt
+      position: {x: 0.027366545, y: -0.00063144916, z: -0.004332778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Index01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: 0.0716895, y: 0.031380042, z: -0.031630844}
+      rotation: {x: -0.5865165, y: -0.018200757, z: 0.013672478, w: 0.8096174}
+      scale: {x: 1.0000001, y: 0.9999992, z: 1.0000006}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Index02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Index01_jnt
+      position: {x: 0.027900865, y: 0.005414876, z: 0.0033293176}
+      rotation: {x: -0.0029712582, y: 0.16037364, z: -0.0050569414, w: -0.98703897}
+      scale: {x: 1, y: 1.0000004, z: 1.0000011}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Index03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Index02_jnt
+      position: {x: 0.027625887, y: 0.0036629902, z: -0.0041232794}
+      rotation: {x: 0.015609868, y: -0.122594565, z: -0.07114082, w: 0.9897807}
+      scale: {x: 0.9999996, y: 0.9999998, z: 1.0000007}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Index04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Index03_jnt
+      position: {x: 0.02919583, y: 0.0064253937, z: -0.010592548}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Pinky01_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Wrist_jnt
+      position: {x: 0.06928098, y: -0.024895681, z: 0.015479916}
+      rotation: {x: -0.72502553, y: 0.03467293, z: 0.15861697, w: 0.66931045}
+      scale: {x: 1.0000002, y: 0.9999992, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Pinky02_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Pinky01_jnt
+      position: {x: 0.032342445, y: -0.0057222107, z: -0.0017534865}
+      rotation: {x: 0.010520688, y: -0.078914054, z: -0.075485095, w: 0.9939637}
+      scale: {x: 0.9999991, y: 0.99999994, z: 1.0000004}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Pinky03_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Pinky02_jnt
+      position: {x: 0.019952722, y: -0.0011313547, z: -0.0027634774}
+      rotation: {x: -0.0031747704, y: 0.09700997, z: 0.108520225, w: -0.98934436}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.99999994}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Pinky04_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Pinky03_jnt
+      position: {x: 0.019475035, y: 0.004069296, z: -0.0084694335}
+      rotation: {x: 4.6566107e-10, y: -0, z: -0.000000002561136, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ShoulderFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Clavicle_jnt
+      position: {x: 0.14277165, y: -0.000002460301, z: -0.00000020874879}
+      rotation: {x: 0.08863779, y: 0.23262274, z: 0.37885347, w: 0.89134735}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000011}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ElbowFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ShoulderFK_jnt
+      position: {x: 0.27781802, y: -0.0000009284161, z: 0.000000008251424}
+      rotation: {x: -0.00000009685751, y: 0.19634631, z: 0.00000004097818, w: 0.9805346}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ForeArmFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ElbowFK_jnt
+      position: {x: 0.13975726, y: 0.0000039128477, z: 0.0000010397001}
+      rotation: {x: -0.1903748, y: -0, z: 0.00000013196099, w: 0.98171157}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_WristFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ForeArmFK_jnt
+      position: {x: 0.1397579, y: 0.0000024758724, z: 0.000002460722}
+      rotation: {x: -0.18994099, y: 0, z: -0, w: 0.98179555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ShoulderIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Clavicle_jnt
+      position: {x: 0.14277165, y: -0.000002460301, z: -0.00000020874879}
+      rotation: {x: 0.0886405, y: 0.2326241, z: 0.37885213, w: 0.8913473}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000013}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ElbowIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ShoulderIK_jnt
+      position: {x: 0.27781802, y: -0.0000009284161, z: 0.000000008251424}
+      rotation: {x: -0.000000059604623, y: 0.19634624, z: -0.00000015273685, w: 0.9805346}
+      scale: {x: 1, y: 1.0000006, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ForeArmIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ElbowIK_jnt
+      position: {x: 0.13975726, y: 0.0000039128477, z: 0.0000010397001}
+      rotation: {x: -0.19037503, y: -0.00000008940694, z: 0.00000016968978, w: 0.9817115}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_WristIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_ForeArmIK_jnt
+      position: {x: 0.1397579, y: 0.0000024758724, z: 0.000002460722}
+      rotation: {x: -0.18994108, y: 0.00000002247456, z: -0.0000000334144, w: 0.98179555}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: Snake_rigged:David_002:joint7
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine04_jnt
+      position: {x: 0.027945666, y: -0.08454272, z: 0.14353569}
+      rotation: {x: -0.56231236, y: 0.46993846, z: -0.52606, w: -0.43153635}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: Snake_rigged:David_002:joint9
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Spine04_jnt
+      position: {x: 0.024180297, y: -0.06273343, z: -0.15438144}
+      rotation: {x: -0.56231236, y: 0.46993846, z: -0.52606, w: -0.43153635}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: Snake_rigged:David_002:Rooting
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Root_jnt
+      position: {x: 0.08147188, y: 0.0075411354, z: 0.00039510152}
+      rotation: {x: 0.50456196, y: -0.52552795, z: 0.47264, w: 0.49583164}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      parentName: Snake_rigged:David_002:Rooting
+      position: {x: 3.4472063e-18, y: -0.0036513258, z: 0.01411666}
+      rotation: {x: 0.69714695, y: 0.71667457, z: -0.005531609, w: 0.018250883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_LegFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      position: {x: 0.00025683653, y: -0.104336776, z: -0.02119384}
+      rotation: {x: 0.95281243, y: 0.04989753, z: -0.024094721, w: 0.2984598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_KneeFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_LegFK_jnt
+      position: {x: -0.3875603, y: 3.5527136e-17, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0.023433696, z: -0, w: 0.9997254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_AnkleFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_KneeFK_jnt
+      position: {x: -0.45431688, y: 1.7763568e-17, z: -3.5527136e-17}
+      rotation: {x: 0.2306312, y: 0.5214283, z: 0.15556256, w: 0.80667347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_BallFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_AnkleFK_jnt
+      position: {x: -0.15261316, y: 3.5527136e-17, z: 4.4408918e-17}
+      rotation: {x: -0.0066351513, y: 0.20836759, z: 0.03112805, w: 0.9775326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ToeFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_BallFK_jnt
+      position: {x: -0.094298996, y: -3.5527136e-17, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_LegFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      position: {x: 0.00025652832, y: 0.1050131, z: -0.017539648}
+      rotation: {x: 0.02496188, y: -0.31504318, z: 0.94745845, w: 0.049469423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_KneeFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_LegFK_jnt
+      position: {x: 0.38755992, y: 0.0000004561062, z: 0.0000003925237}
+      rotation: {x: 0, y: -0.023433696, z: -0, w: 0.9997254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_AnkleFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_KneeFK_jnt
+      position: {x: 0.4543173, y: -0.00000051645213, z: -0.00000036060268}
+      rotation: {x: 0.2306312, y: 0.5214283, z: 0.15556256, w: 0.80667347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_BallFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_AnkleFK_jnt
+      position: {x: 0.15261276, y: 0.000000035136086, z: -0.0000001937395}
+      rotation: {x: -0.0066351513, y: 0.20836759, z: 0.03112805, w: 0.9775326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ToeFK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_BallFK_jnt
+      position: {x: 0.09429937, y: -0.00000018396422, z: -0.0000000028816938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_LegIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      position: {x: 0.00025683653, y: -0.104336776, z: -0.02119384}
+      rotation: {x: 0.9988049, y: 0.033389658, z: -0.035550475, w: 0.003175801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_KneeIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_LegIK_jnt
+      position: {x: -0.3875603, y: 3.5527136e-17, z: -1.7763568e-17}
+      rotation: {x: -2.2470635e-32, y: -0.023433696, z: 3.8537555e-31, w: 0.9997254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_AnkleIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_KneeIK_jnt
+      position: {x: -0.45431688, y: 1.7763568e-17, z: -3.5527136e-17}
+      rotation: {x: -0.021879215, y: 0.5455706, z: -0.00064160087, w: 0.83777905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_BallIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_AnkleIK_jnt
+      position: {x: -0.15261316, y: 3.5527136e-17, z: 4.4408918e-17}
+      rotation: {x: -0.0066351513, y: 0.20836759, z: 0.03112805, w: 0.9775326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_ToeIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_BallIK_jnt
+      position: {x: -0.094298996, y: -3.5527136e-17, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_LegIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      position: {x: 0.00025652832, y: 0.1050131, z: -0.017539648}
+      rotation: {x: 0.036127046, y: -0.020630218, z: 0.99859685, w: 0.03276551}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_KneeIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_LegIK_jnt
+      position: {x: 0.38755992, y: 0.0000004561062, z: 0.0000003925237}
+      rotation: {x: 3.4463354e-23, y: -0.023433696, z: -8.4807526e-20, w: 0.9997254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_AnkleIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_KneeIK_jnt
+      position: {x: 0.4543173, y: -0.00000051645213, z: -0.00000036060268}
+      rotation: {x: -0.021859327, y: 0.5455706, z: -0.0006292945, w: 0.8377795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_BallIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_AnkleIK_jnt
+      position: {x: 0.15261276, y: 0.000000035136086, z: -0.0000001937395}
+      rotation: {x: -0.006635151, y: 0.20836759, z: 0.03112805, w: 0.9775326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_ToeIK_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_BallIK_jnt
+      position: {x: 0.09429937, y: -0.00000018396422, z: -0.0000000028816938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Leg_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      position: {x: 0.00025683653, y: -0.104336776, z: -0.02119384}
+      rotation: {x: -0.9988049, y: -0.033389628, z: 0.03555049, w: -0.0031758258}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999999}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Knee_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Leg_jnt
+      position: {x: -0.3875603, y: 3.5527136e-17, z: -1.3322676e-17}
+      rotation: {x: -0.000000021420417, y: -0.023433652, z: -0.00000001862645, w: 0.9997254}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: Snake_rigged:David_002:joint20
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Knee_jnt
+      position: {x: -0.11054773, y: -0.046056632, z: -0.10164808}
+      rotation: {x: -0.026863568, y: 0.032578707, z: -0.6832117, w: 0.72899854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint17
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Knee_jnt
+      position: {x: -0.102293424, y: 0.036424447, z: -0.10027216}
+      rotation: {x: -0.026863568, y: 0.032578707, z: -0.6832117, w: 0.72899854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Ankle_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Knee_jnt
+      position: {x: -0.45431688, y: 7.105427e-17, z: -3.9968027e-17}
+      rotation: {x: -0.0154311685, y: 0.5465887, z: -0.012644112, w: 0.8371635}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Ball_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Ankle_jnt
+      position: {x: -0.15261316, y: 0, z: 8.8817837e-17}
+      rotation: {x: -0.006635027, y: 0.20836753, z: 0.031127952, w: 0.97753257}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: Snake_rigged:David_002:DAVIDRIG_L_Toe_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_L_Ball_jnt
+      position: {x: -0.094298996, y: -7.105427e-17, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Leg_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_C_Pelvis_jnt
+      position: {x: 0.00025652832, y: 0.1050131, z: -0.017539648}
+      rotation: {x: 0.036127023, y: -0.020630281, z: 0.99859685, w: 0.03276554}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Knee_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Leg_jnt
+      position: {x: 0.38755992, y: 0.0000004561062, z: 0.0000003925237}
+      rotation: {x: 0.00000008521602, y: -0.023433683, z: -0.000000018160792, w: 0.9997254}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Snake_rigged:David_002:joint19
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Knee_jnt
+      position: {x: 0.11052132, y: 0.046365757, z: 0.101712}
+      rotation: {x: 0.7290062, y: -0.68320066, z: -0.033017933, w: 0.026394932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:joint18
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Knee_jnt
+      position: {x: 0.10234603, y: -0.037375502, z: 0.10021487}
+      rotation: {x: 0.7290062, y: -0.68320066, z: -0.033017933, w: 0.026394932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Ankle_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Knee_jnt
+      position: {x: 0.4543173, y: -0.00000051645213, z: -0.00000036060268}
+      rotation: {x: -0.021859413, y: 0.5455706, z: -0.00062923605, w: 0.8377796}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000005}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Ball_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Ankle_jnt
+      position: {x: 0.15261276, y: 0.000000035136086, z: -0.0000001937395}
+      rotation: {x: -0.0066350647, y: 0.2083676, z: 0.031128032, w: 0.97753257}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1}
+    - name: Snake_rigged:David_002:DAVIDRIG_R_Toe_jnt
+      parentName: Snake_rigged:David_002:DAVIDRIG_R_Ball_jnt
+      position: {x: 0.09429937, y: -0.00000018396422, z: -0.0000000028816938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: helmet_Group3
+      parentName: GrayFox(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: katana_polySurface1
+      parentName: GrayFox(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
